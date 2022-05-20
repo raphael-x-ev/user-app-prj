@@ -39,7 +39,7 @@
   font-size: 13px;
 }
 /*buttons*/
-.userForm .action-button {
+.submitButton {
   width: 100px;
   background: #27ae60;
   font-weight: bold;
@@ -50,8 +50,8 @@
   padding: 10px 5px;
   margin: 10px 5px;
 }
-.userForm .action-button:hover,
-.userForm .action-button:focus {
+.userForm .submitButton:hover,
+.userForm .submitButton:focus {
   box-shadow: 0 0 0 2px white, 0 0 0 3px #27ae60;
 }
 /*headings*/
@@ -66,4 +66,47 @@
   font-size: 13px;
   color: #666;
   margin-bottom: 20px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: 200ms;
+  background: #fff;
+}
+.avatar:hover .avatarImg {
+  opacity: 0.6;
+}
+.avatar:hover .upload {
+  opacity: 1;
+}
+.avatarImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: none;
+}
+#to-hide {
+  visibility: hidden;
+}
+.upload {
+  width: 40px;
+  height: 40px;
+  background: #e2e2e2;
+  border: none;
+  box-shadow: 0 0 0 6px #fff;
+  border-radius: 50%;
+  outline: none;
+  color: #000;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0;
+  transition: 200ms;
+}
+.upload:hover {
+  background: #555;
+  color: #fff;
 }
