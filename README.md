@@ -2,14 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 ###install dependencies
+#npm install
+then, run the development server:
+###npm run dev -- -p 3003
 
-First, run the development server:
-```bash
-npm install
-```bash
-npm run dev -- -p 3003
-# or
-yarn dev
-```
 
 Open [http://localhost:3003](http://localhost:3003) with your browser to see the result.
+![image](https://user-images.githubusercontent.com/22786627/169547967-f1446e00-bb56-4a29-af2b-81b4b27cabeb.png)
